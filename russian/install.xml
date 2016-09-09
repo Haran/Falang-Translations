@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="file" method="upgrade">
+    <name>Russian language pack for Falang</name>
+    <author>Oļegs Čapligins</author>
+    <creationDate>2016-09-08</creationDate>
+    <copyright>Oļegs Čapligins</copyright>
+    <license>MIT</license>
+    <authorEmail>shader@dautkom.lv</authorEmail>
+    <authorUrl>http://localhost</authorUrl>
+    <version>1.0.0</version>
+    <description>Russian language pack for Falang</description>
+	<fileset>
+		<files folder="administrator" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_falang.ini</filename>
+			<filename>ru-RU.com_falang.sys.ini</filename>
+			<filename>ru-RU.plg_system_falangdriver.ini</filename>
+			<filename>ru-RU.plg_system_falangdriver.sys.ini</filename>
+			<filename>ru-RU.plg_system_falangquickjump.ini</filename>
+			<filename>ru-RU.plg_system_falangquickjump.sys.ini</filename>
+		</files>
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.mod_falang.ini</filename>
+			<filename>ru-RU.mod_falang.sys.ini</filename>
+		</files>
+  </fileset>
+</extension>
